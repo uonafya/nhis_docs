@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to NHIS Systems Documentations'
+Welcome to JPRP Documentation
 ======================================================
 
 Contents:
@@ -11,12 +11,14 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
+   introduction
+
 
 
 Indices and tables
 ==================
 
 * :ref:`genindex`
-* :ref:`modindex`
 * :ref:`search`
+.. * :ref:`modindex`
 

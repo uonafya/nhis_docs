@@ -15,6 +15,7 @@
 import sys
 import os
 import shlex
+import sphinx_rtd_theme
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
@@ -51,7 +52,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'NHIS Systems'
+project = u'JPRP'
 copyright = u'2015, UoN-Afya'
 author = u'UoN-Afya Team'
 
@@ -113,7 +114,9 @@ todo_include_todos = False
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
-html_theme = 'sphinx_rtd_theme'
+
+html_theme = "sphinx_rtd_theme"
+html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -227,7 +230,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  (master_doc, 'NHISSystems.tex', u'NHIS Systems',
+  (master_doc, 'JPRPSystem.tex', u'JPRP System',
    u'UoN-Afya Team', 'manual'),
 ]
 
@@ -257,7 +260,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'nhissystems', u'NHIS Systems',
+    (master_doc, 'jprpsystem', u'JPRP System',
      [author], 1)
 ]
 
@@ -271,8 +274,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  (master_doc, 'NHISSystems', u'NHIS Systems',
-   author, 'NHISSystems', 'One line description of project.',
+  (master_doc, 'JPRPSystem', u'JPRP System',
+   author, 'JPRPSystem', 'One line description of project.',
    'Miscellaneous'),
 ]
 
