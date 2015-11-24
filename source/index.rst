@@ -11,15 +11,24 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
+   abbreviations
    introduction
    system
+   users
+   programs
+   dataimport
+   mailbox
+   structure
+   analysis
+   appendix
 
 
 
-Indices and tables
-==================
 
-* :ref:`genindex`
-* :ref:`search`
-.. * :ref:`modindex`
+.. Indices and tables
+.. ==================
+
+.. * :ref:`genindex`
+.. * :ref:`search`
+.. .. * :ref:`modindex`
 

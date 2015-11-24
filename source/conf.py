@@ -364,3 +364,11 @@ epub_exclude_files = ['search.html']
 
 # Example configuration for intersphinx: refer to the Python standard library.
 intersphinx_mapping = {'https://docs.python.org/': None}
+
+
+#pdf_documents = [('index', u'JPRP Doc', u'JPRP User Documentation', u'UoN-AfyaInfo Team'),]
+   
+   # index - master document
+   # rst2pdf - name of the generated pdf
+   # Sample rst2pdf doc - title of the pdf
+   # Your Name - author name in the pdf
