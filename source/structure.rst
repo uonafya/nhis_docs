@@ -14,7 +14,7 @@ Data Attribution
 ------------------
 The attribution process can be summarized using the following diagram,
 
-.. figure::  _static/attribution_process.png
+.. figure::  _static/attribution.png
    :align:   center
 
 Fig 18 -Attribution Process
