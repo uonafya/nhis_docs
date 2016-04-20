@@ -1,4 +1,4 @@
 # jprp_docs
 Joint Partners Reporting Portal (JPRP) docs
--Link http://jprp-docs.readthedocs.org/en/latest/
+-Link http://nhis-docs.readthedocs.org/en/latest/
 
