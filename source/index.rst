@@ -14,10 +14,10 @@ Contents:
    abbreviations
    introduction
    system
+   hierarchy
    users
    programs
    dataimport
-   mailbox
    structure
    analysis
    appendix
