@@ -3,7 +3,7 @@ System
 
 System Access
 --------------
-To access the application the user has to sign in to PHES. Click on this link `PHES <http://41.89.93.235:8080>`_  to direct you to the PHES login page below. Provide your username and password then click the login button. If successful it directs you to the PHES dashboard. 
+To access the application the user has to sign in to PHES. Click on this link `PHES <http://41.89.93.235:8080>`_  to direct you to the PHES login page. Provide your username and password then click the login button. If successful it directs you to the PHES dashboard. 
 
 .. _login_panel:
 .. figure::  _static/login_panel.png
