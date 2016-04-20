@@ -1,33 +1,116 @@
-Users
-=====
-How to create users
---------------------
-The portal administrator using the DHIS2   application   functionalities   will   create   Donor,   Agency  
-and Implementing Partner users and grant them appropriate group and rights such as  
-authorizing access to data sets for partners. 
+User Management
+================
+Users and User Roles
+----------------------
+All users in the system will be created using the User Management Module in JPRP.
 
-For example, an account for implementing partners under **AMPATHplus** can be created and given privileges required by the Implementing Partners. This can be illustrated on fig. 1 below
+Creating Users
++++++++++++++++
+- Administrators have the responisibility of creating users at their respective levels.
+- When creating users they will have to provide the user with a DHIS2 user role which is already predefined.
+- In addition, they will provide the user with a JPRP user role. 
 
-.. _login_page:
-.. figure::  _static/login_panel.png
+.. note:: For the JPRP user roles the administrators will have to create them based on their organization.
+
+**How to create a user**
+
+- Click on the users tab on the left menu 
+- On the user management dashboard that appears click on the users icon.
+- It displays a list of the  users with their different roles. On the right side, click on the button "new user"
+- Provide the details of the user(username, first name, surname, phone number, email address, DHIS2 user role and JPHES user role).
+- Then click on the submit button.
+
+.. figure::  _static/user_dashboard.png
    :align:   center
 
-Fig. 2 – Example - Logging in as AMPATHplus user
- 
-After this User has been created, the account will be availed to a lead user from the respective organization who will customize it to their own taste. This authorized user can then create other users under them, assign them to IP users within their organization, and add them to their own user group for ease of sharing facilities and data elements.
-This user will be responsible of maintaining users (de-registering and approving new user accounts) for their respective organization.
+Fig -User Management Dashboard.
 
-For the case of funding agency users, the portal admin will allocate the respective account to an approved agency who will take charge of the account. From this account, one can create new Implementing Partner organization under them and approve IP user accounts under the organization. The agency can also remove an IP group from the list of IPs funded by this agency.
 
-How partners are assigned support facilities.
----------------------------------------------
-The administrator is in charge of uploading the **IPSL** (contains the facilities and their mechanisms) it automatically allocates the facilities to their respective mechanisms once uploaded.
-
-.. _ipsl:
-.. figure::  _static/ipsl.png
+.. figure::  _static/list_user.png
    :align:   center
 
-Fig. 3 – Mechanism Support Import
+Fig - List of Users
+
+.. figure::  _static/create_user.png
+   :align:   center
+
+Fig -Add User.
+
+
+
+
+
+Creating User Roles
+++++++++++++++++++++
+- Click on the users tab on the left menu.
+- On the user management dashboard that appears click on the user roles icon.
+- It displays a list of the  users roles with their different authorities. On the right side, click on the button "Add User Role"
+- Provide a name of the user role and select the relevant authorities of the user role. Then click on the submit button.
+
+- Other options-A user can update the selected authorities and the user role name.
+
+.. figure::  _static/user_dashboard.png
+   :align:   center
+
+Fig -User Management Dashboard.
+
+
+.. figure::  _static/list_userrole.png
+   :align:   center
+
+Fig -List of user roles.
+
+.. figure::  _static/add_userrole.png
+   :align:   center
+
+Fig -Add User Role.
+
+
+
+DHIS2 User Roles
+-----------------
+Development Partner Level
+++++++++++++++++++++++++++++
+- Donor Admin
+
+Agency Level
+++++++++++++++++++++++++++++
+- Agency User
+- Agency Admin
+
+Mechanism Level
+++++++++++++++++++++++++++++
+- Implementing Partner Admin
+- Implementing Partner User
+
+JPRP User Authorities
+----------------------
+
+Development Partner Level
+++++++++++++++++++++++++++++
+- Program Management- View all programs
+- Org User Management - Create JPRP users
+- Org Role Management - Create JPRP user roles
+- IPSL Import - Can Import the IPSL
+- Data Attribution -Can perform Data Attribution.
+- Program Create -Can create,update and remove programs.
+- Donor Level
+
+Agency Level
+++++++++++++++++++++++++++++
+- Program Management
+- Org User Management
+- Org Role Management
+- IPSL Import
+- Agency Level
+
+Mechanism Level
++++++++++++++++++++++++++++
+- Program Management
+- Org User Management
+- Org Role Management
+- Mechanism Level
+
 
 
 

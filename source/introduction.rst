@@ -20,6 +20,6 @@ JPRP portal comes with the following benefits:
 
     4.The JPRP portal is  streamlines health data where all partners can access up to date data from the same database instance unlike the previous scenario where each partner was running their own KePMS instances.
 
-    5.The portal provides aggregated data for programs per sites implementing partners , Implementing agencies and Donor levels.
+    5.The portal provides aggregated data for programs per sites implementing partners ,agencies and donor levels.
 
     6.The portal provides a cumulative data element functionality currently not being provided by the DHIS2 platform on which it is based on.
