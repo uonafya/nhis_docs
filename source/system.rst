@@ -3,13 +3,15 @@ System
 
 System Access
 --------------
-To access the application the user  has to login to PHES. Copy the link `PHES <http://41.89.93.235:8080>`_ into the browser URL and click go; the following log in screen appears where the user feeds in their provided username and password. The landing page of the application is the Dashboard.
+To access the application the user has to sign in to PHES. Click on this link `PHES <http://41.89.93.235:8080>`_  to direct you to the PHES login page below. Provide your username and password then click the login button. If successful it directs you to the PHES dashboard. 
 
 .. _login_panel:
 .. figure::  _static/login_panel.png
    :align:   center
 
 Fig 1.- PHES Login Page
+
+.. note::If you have challenges in signing in, contact the Administrator.
 
 Accessing the JPRP attribution portal app
 +++++++++++++++++++++++++++++++++++++++++
